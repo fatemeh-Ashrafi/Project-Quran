@@ -1,0 +1,88 @@
+.menusurah{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    background-image: url("https://app.nasimrezvan.com/assets/dashboard-section-box-bg.62578d0.png");
+    background-size: 100% ;
+}
+.header{
+    width: 80vw;   
+}
+.title { 
+    width: 20rem;
+    height: 2.5rem; 
+    padding: 10px; 
+    font-weight: bold;
+    font-size: 26px; 
+    border-radius: 30px; 
+    background-color: rgb(154, 152, 152); 
+    border: 3px solid rgb(78, 78, 79); 
+    color: white;
+    text-align: center; 
+}
+.input { 
+    width: 16rem; 
+    height:2rem; 
+    direction: rtl; 
+    border: 2.5px solid rgb(78, 78, 79); 
+    border-radius: 8px; 
+    padding: 12px; 
+    font-size: 20px; 
+} 
+.body{
+    width: 90%;
+    padding: 8px;
+    padding-top: 30px;
+}
+.stylesvg{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(212, 206, 196, 0.5);
+    color: rgb(9, 9, 9);
+    border-radius: 15px;
+}
+.itemsurahtext {
+    color: rgb(9, 9, 9);
+    align-items: center;
+    padding-right: 50px;
+    display: flex;
+    font-size: 23px;
+}
+.numbersurah{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+}
+.countsourh{
+    position: absolute;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-right: 17px;
+}
+.number{
+    width: 50px;
+    padding-left: 25px;
+    align-items: center;
+}
+.iconplay{
+    color: rgb(46, 144, 171);
+    width: 50px;
+    padding: 15px;
+}
+
+@media screen and (min-width: 620px) {
+    .body {
+        max-width: 35rem;
+    }
+    .surah{
+        border-radius: 0.5rem;
+        margin: 0;
+    }
+    .stylesvg{
+        background-color: rgba(181, 182, 187, 0.322);
+        border-radius: 15px;
+    }
+  }
